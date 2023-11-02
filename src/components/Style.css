@@ -1,0 +1,28 @@
+@media only screen and (max-width: 600px) {
+    #phone{
+        display: flex;
+        flex-direction: column;
+    }
+    #photos{
+        margin-left: -13%;
+    }
+    #stack{
+        width: auto !important;
+    }
+    #photo-phone{
+        width: 95% !important;
+    }
+    
+  }
+    #concept{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .top{
+        margin-top: 10%;
+    }
+    #visuale{
+        text-align: left;
+        margin-top: 20%;
+    }

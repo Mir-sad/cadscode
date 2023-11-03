@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap'
 
 const Testimonials = () => {
   return (
-    <div className='container' style={{marginTop:"10%",display:'flex', flexDirection:"column", justifyContent:"center",alignItems:"center" ,textAlign:"center"}}>
+    <div className='container' id='testimonials' style={{marginTop:"10%",display:'flex', flexDirection:"column", justifyContent:"center",alignItems:"center" ,textAlign:"center"}}>
         <div className='row'>
             <div className='col xs-12'>
             <h2>What our users think about CadsCode</h2>
@@ -16,7 +16,7 @@ const Testimonials = () => {
                 {
                      TestimonialsData.map((data) => {
                         return(
-                            <Card style={{ width: '18rem', marginLeft:"5%" }}>
+                            <Card style={{ width: '18rem', marginLeft:"5%", marginBottom:"10px" }}>
           <Card.Body style={{display:"flex", alignItems:"center"}}>
           <Card.Img variant="top" src={data.image}  style={{width:"70px", height:"70px" ,objectFit:"cover", borderRadius:"50%", marginRight:"10px"}}/>
           <Card.Title>{data.name}</Card.Title>
@@ -33,11 +33,11 @@ const Testimonials = () => {
             </div>
         </div>
         <div className='row'>
-            <div className='col xs-12 mt-5' id='phone' style={{display:"flex"}}>
+            <div className='col xs-12 ' id='phone' style={{display:"flex"}}>
                 {
                      TestimonialsData.map((data) => {
                         return(
-                            <Card style={{ width: '18rem', marginLeft:"5%" }}>
+                            <Card style={{ width: '18rem', marginLeft:"5%", marginBottom:"10px" }}>
           <Card.Body style={{display:"flex", alignItems:"center"}}>
           <Card.Img variant="top" src={data.image}  style={{width:"70px", height:"70px" ,objectFit:"cover", borderRadius:"50%", marginRight:"10px"}}/>
           <Card.Title>{data.name}</Card.Title>

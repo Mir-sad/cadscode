@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap';
 
 const Infos = () => {
   return (
-    <div className='container ' style={{ marginTop:"5%"}}>
+    <div className='container' id='templates' style={{ marginTop:"5%"}}>
         <div className='row' style={{display:'block'}}>
             <div className='col xs-12' id='concept'>
             <h1 className="w-100">A full ecosystem of tools  within a single<br /> design environment.</h1>

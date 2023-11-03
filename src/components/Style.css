@@ -12,6 +12,9 @@
     #photo-phone{
         width: 95% !important;
     }
+    #visuale{
+        margin-top: 0%;
+    }
     
   }
     #concept{
@@ -25,4 +28,10 @@
     #visuale{
         text-align: left;
         margin-top: 20%;
+    }
+    #menu{
+        border: none;
+    }
+    #menu:hover{
+        border: none;
     }
